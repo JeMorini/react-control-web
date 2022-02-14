@@ -6,13 +6,7 @@ import { onSnapshot, doc } from "firebase/firestore";
 
 function App() {
   initializeApp({
-    apiKey: "AIzaSyCwApotHrYwG-tnp18ZyQTMWUe5Ou-iv1g",
-    authDomain: "react-control-7f0af.firebaseapp.com",
-    projectId: "react-control-7f0af",
-    storageBucket: "react-control-7f0af.appspot.com",
-    messagingSenderId: "208604699343",
-    appId: "1:208604699343:web:8bc39c85404b40f3dc35ba",
-    measurementId: "G-GSDF3TD0XK",
+    //FIREBASE CONFIGS
   });
 
   const db = getFirestore();
