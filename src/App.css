@@ -1,0 +1,25 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Image {
+  height: 200px;
+  width: 200px;
+}
+
+.ImageSilhouette {
+  height: 200px;
+  width: 200px;
+  opacity: 0.5;
+}
+
+.Title {
+  margin-top: 500px;
+}
